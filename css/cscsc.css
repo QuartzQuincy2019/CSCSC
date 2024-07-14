@@ -1,0 +1,87 @@
+/* cscsc.css */
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.colorblock {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+}
+
+div.colorexplanation {
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 110px;
+    height: 120px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-radius: 23px;
+    padding: 10px;
+    transition-property: background-color;
+}
+
+div.colorexplanation:hover {
+    background-color: #d5d5d5;
+}
+
+.colorname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+div.row {
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+div.grouparea{
+    padding: 10px;
+    border-top: 6px groove #000000;
+    border-radius: 20px;
+    margin: 70px 0;
+}
+
+.footer {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.FunctionButton {
+    display: inline-block;
+    background-color: aliceblue;
+    border: 2px solid #000000;
+    border-radius: 7px;
+    cursor: pointer;
+    transition-duration: 200ms;
+    transition-property: all;
+    position: sticky;
+    font-size: 18px;
+    padding: 9px;
+    top: 6px;
+    left: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.FunctionButton:hover {
+    box-shadow: 2px 2px 3px #a4a4a4;
+}
+
+.FunctionButton:active {
+    background-color: aqua;
+}
